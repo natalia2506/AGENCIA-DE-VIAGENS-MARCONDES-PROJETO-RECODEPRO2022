@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARCONDES VIAGENS -  PROMOÇÕES</title>
+    <link rel="stylesheet" type="text/CSS" href="./CSS/estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+</head>
+<body id="corFundo">
+<!-- Início do Menu-->
+  <nav class="navbar navbar-expand-lg navbar-light" id="corFundoDoMenu">
+    <a class="navbar-brand" href="index.html"><img src="./IMAGENS/logoC.png" width="100" height="80" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado" >
+      <ul class="navbar-nav mr-auto" id="centralizar">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">página principal</span></a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="cadastroClientes.html">Cadastro de Clientes</a>
+        </li>
+        <li class="nav-item px-2">
+            <a class="nav-link" href="destinos.html">Destinos</a>
+        </li>
+        <li class="nav-item px-2">
+            <a class="nav-link" href="promocoes.html">Promoção</a>
+        </li>
+        <li class="nav-item px-2">
+            <a class="nav-link" href="contato.html">Contato</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <a class="btn btn btn-sm" href="login.html" role="button" id="corBotao">Login</a> 
+      </form>
+    </div>
+  </nav>
+  <!--Fim do Menu-->
+
+  <br><br><br>
+
+  <!--Início do conteúdo da página de promoções -->
+  <main id="centralizar">
+    <h6 id="corfonte1">PROMOÇÕES PARA SUA VIAGEM</h6>
+    <br>
+    <img class="align-self-start mr-3" src="./IMAGENS/imgDesconto.jpeg" width="300" height="300" alt="">
+  </main>
+    <br><br><br>
+ <!--Início das promoções -->
+ <main class="container" id="centralizar">
+ <div class="card-deck " >
+  <div class="card"  >
+    <img class="card-img-top" src="./IMAGENS/imgTiradentes.jpeg"  alt="Imagem de capa do card">
+    <div class="card-body">
+      <p class="card-text"><b>Pacotes para Tiradentes/MG</b></p>
+      <p>Saindo de Brasília</p>
+      Dia: 05/07/2022
+      <p>Hotel + Café da manhã</p>
+      <p>5 dias / 4 noites</p>
+      Preço por pessoa
+      <p id="preco"><small><s> R$ 1.195,00 </s></small></p>
+      <p id="precodesconto"> R$ 947,00</p>
+      <button type="button" class="btn btn-outline-primary btn-sm" >COMPRAR</button>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="./IMAGENS/imgMariana.jpeg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <p class="card-text"><b>Pacotes para Mariana/MG</b></p>
+      <p>Saindo de Brasília</p>
+      Dia: 23/07/2022
+      <p>Hotel + Café da manhã</p>
+      <p>6 dias / 5 noites</p>
+      Preço por pessoa
+      <p id="preco"><small><s> R$ 1.257,00 </s></small></p>
+      <p id="precodesconto"> R$ 847,00</p>
+      <button type="button" class="btn btn-outline-primary btn-sm" >COMPRAR</button>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="./IMAGENS/imgOuroPreto.jpeg"alt="Imagem de capa do card">
+    <div class="card-body">
+      <p class="card-text"><b>Pacotes para Ouro Preto/MG</b></p>
+      <p>Saindo de São Paulo</p>
+      Dia: 24/07/2022
+      <p>Hotel + Café da manhã</p>
+      <p>3 dias / 2 noites</p>
+      Preço por pessoa
+      <p id="preco"><small><s> R$ 1.495,00 </s></small></p>
+      <p id="precodesconto"> R$ 947,00</p>
+      <button type="button" class="btn btn-outline-primary btn-sm" >COMPRAR</button>
+    </div>
+  </div>
+</div>
+</main>
+  <!--Fim das promoções -->
+
+  <br><br><br><br><br><br>
+
+ <main id="centralizar">
+    <p ><strong>Quer receber noticias e promoções excluivas?</strong></p>
+    <p ><strong>Cadastre-se e não perca nada! </strong></p><br>
+    <a class="btn btn btn-sm" id="corBotao" href="cadastroClientes.html" role="button">CADASTRAR</a>
+  </main>
+  <!--Fim do conteúdo da página de promoções -->
+    
+    <br><br><br><br>
+  
+  <!--Inicio do rodapé-->
+    <footer id="centralizar">
+      <p id="formas_pagamento"><b>Formas de pagamento:</b></p>  
+      <img width="150px"  src="./IMAGENS/imagemPagamentoCF1.jpeg" alt="Formas de pagamento"> 
+      <p>&copy; Todos os direitos reservados - Marcondes</p>
+    </footer> 
+  <!--Fim do rodapé-->
+
+  <!-- inicio Script JavaScript-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>     
+  <!-- Fim Script JavaScript-->
+</body>
+</html>
+
+ 
