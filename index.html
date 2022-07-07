@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARCONDES VIAGENS - PÁGINA INICIAL</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/CSS" href="./CSS/estilo.css">
+
+  
+  
+</head>
+<body id="corFundo">
+
+<!--inicio alerta com o link da promoção-->
+    <main id="centralizar">
+        <div class="alert alert-warning alert-dismissible fade show" role="alert" id="alerta" >
+          <p id="corPadrao">Ultimos dias para aproveitar as<a href="promocoes.html" class="alert-link"> PROMOÇÔES</a> em nosso site </p>
+          <p id="corPadrao"><a href="promocoes.html" class="alert-link"> PROMOÇÃO</a> válida até 11/07/2022.</p>
+          <p id="corPadrao">Aproveite!</p>
+        
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+    </main>
+<!--fim alerta com o link da promoção-->
+
+  <!-- Início do Menu-->
+  <nav class="navbar navbar-expand-lg navbar-light" id="corFundoDoMenu">
+    <a class="navbar-brand" href="index.html"><img src="./IMAGENS/logoC.png" width="100" height="80" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado" >
+      <ul class="navbar-nav mr-auto" id="centralizar">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">página principal</span></a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="cadastroClientes.html">Cadastro de Clientes</a>
+        </li>
+        <li class="nav-item px-2">
+            <a class="nav-link" href="destinos.html">Destinos</a>
+        </li>
+        <li class="nav-item px-2">
+            <a class="nav-link" href="promocoes.html">Promoção</a>
+        </li>
+        <li class="nav-item px-2">
+            <a class="nav-link" href="contato.html">Contato</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <a class="btn btn btn-sm" href="login.html" role="button" id="corBotao">Login</a> 
+      </form>
+    </div>
+  </nav>
+  <!--Fim do Menu-->
+
+<br><br><br>
+
+  <!--inicio do conteúdo  da página principal-->
+    <main id="centralizar">
+        <h5>Aproveite as suas férias com os melhores pacotes que a Marcondes oferece!</h5>
+        <br>
+        <h5>Connheça cidades de <img class="align-self-start mr-3" src="./IMAGENS/imgMinas.jpeg" width="250" height="100" alt=""></h5>
+        <br>
+        <img class="align-self-start mr-3" src="./IMAGENS/imgNat.jpeg" width="300" height="300" alt="">
+    </main>
+
+    <br><br><br>
+
+   <!--Início do Carrossel-->
+   <div id="carouselExampleControls" class="carousel slide mx-auto" style="width: 350px" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="./IMAGENS/imgTiradentes.jpeg" alt="Primeiro Slide"><br>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./IMAGENS/imgOuroPreto.jpeg" alt="Segundo Slide"><br>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./IMAGENS/imgMariana.jpeg" alt="Terceiro Slide"><br>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+    <!--Fim do Carrossel-->
+
+    <br><br><br><br>
+    
+  <!--Início do rodapé-->
+  <footer id="centralizar">
+    <img width="30px" src="./IMAGENS/logoS2.jpeg" alt="logo Marcondes"> 
+    <p>&copy; Todos os direitos reservados - Marcondes</p>
+  </footer> 
+  <!--Fim do rodapé-->
+
+  <!-- início Script JavaScript-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>     
+  <!-- Fim Script JavaScript-->
+</body>
+</html>
