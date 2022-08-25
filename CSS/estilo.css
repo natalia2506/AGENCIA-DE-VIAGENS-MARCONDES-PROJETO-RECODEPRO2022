@@ -2,6 +2,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.pai{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    background-color: #F0F8FF
+}
+
 #corFundo{
     background-color: #F0F8FF; 
 } 
@@ -16,31 +24,38 @@ body {
 
 #corBotao {
     background-color: #87CEEB; 
+  
 }
 
 #formatoCampoLogin {
     width: 600px; 
+  
 }
 
 #alerta {
     background-color: red;
+   
 }
 
 #formas_pagamento {
     color: red;  
+    
 }
 
 #centralizar {
     text-align: center;
+    
 }
 
 #preco {
     color: red;
     text-align: center;
+   
 
 }
 
 #precodesconto{
     font-size: 20px;
     text-align: center;
+   
 }
