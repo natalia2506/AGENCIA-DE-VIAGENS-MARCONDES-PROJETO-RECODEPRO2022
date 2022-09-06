@@ -10,6 +10,22 @@ body {
     background-color: #F0F8FF
 }
 
+.containerLogin{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    max-width: 960px;
+    padding: 60px 20px 40px 20px;
+    width: 600px;
+    background-color: #e1edf7;
+    border-radius: 45px;
+
+}
+
+.formulario{
+    text-align: center;
+}
+
 #corFundo{
     background-color: #F0F8FF; 
 } 
